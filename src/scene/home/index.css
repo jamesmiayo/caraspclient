@@ -65,6 +65,6 @@
   /* background-color: var(--color-jet); */
 }
 .cars:hover {
-  background-color: black;
+  background-color: var(--color-bg);
   scale: 1.1;
 }
