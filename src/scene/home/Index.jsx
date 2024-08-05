@@ -2,7 +2,10 @@ import React from 'react'
 import './index.css'
 
 import car1 from '../../assets/images/1.png'
-import car2 from '../../assets/images/444.png'
+import car2 from '../../assets/images/2.png'
+import car3 from '../../assets/images/3.png'
+import car4 from '../../assets/images/4.png'
+import car5 from '../../assets/images/5.png'
 
 const data = {
   listofvehicletype: [{ name: 'CAR' }, { name: 'TRUCK' }],
@@ -46,11 +49,15 @@ const Home = () => {
           <h6>Toyota Vios 2019</h6>
         </div>
         <div className="cars">
-          <img src={car2} alt="" />
+          <img src={car3} alt="" />
           <h6>Toyota Vios 2019</h6>
         </div>
         <div className="cars">
-          <img src={car2} alt="" />
+          <img src={car4} alt="" />
+          <h6>Toyota Vios 2019</h6>
+        </div>
+        <div className="cars">
+          <img src={car5} alt="" />
           <h6>Toyota Vios 2019</h6>
         </div>
       </div>

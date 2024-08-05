@@ -10,8 +10,8 @@
   width: 40%;
   padding: 2rem; /* Add some padding for better appearance */
   border-radius: 10px; /* Rounded corners */
-  backdrop-filter: blur(0.8px); /* Blur effect */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  backdrop-filter: blur(5px); /* Blur effect */
+  box-shadow: 0 4px 6px rgba(113, 89, 89, 0.1); /* Subtle shadow */
   border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
   height: fit-content;
   width: fit-content;
@@ -38,8 +38,8 @@
   text-align: center; /* Center text content */
 }
 .carselected img {
-  max-width: 500px;
-  max-height: 300px;
+  max-width: 300px;
+  max-height: 200px;
 }
 
 .carlist {
@@ -50,8 +50,8 @@
   gap: 1rem;
 }
 .cars img {
-  height: 75px;
-  width: auto;
+  padding: 1rem;
+  max-height: 150px;
   max-width: 200px;
 }
 
@@ -60,4 +60,11 @@
   border-radius: 1rem;
   text-align: center;
   color: var(--color-burntorange);
+  backdrop-filter: blur(5px); /* Blur effect */
+  box-shadow: 0 2px 3px var(--color-burntorange);
+  /* background-color: var(--color-jet); */
+}
+.cars:hover {
+  background-color: black;
+  scale: 1.1;
 }
